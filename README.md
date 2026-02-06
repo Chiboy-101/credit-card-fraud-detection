@@ -11,7 +11,6 @@ Credit card fraud is costly and difficult to detect due to **highly imbalanced d
 This project aims to:
 
 - Explore the dataset visually and statistically.
-- Handle class imbalance using **SMOTE**.
 - Train and tune **Random Forest** and **Logistic Regression** models.
 - Optimize probability thresholds to balance **Precision vs Recall**.
 - Save models and scalers for production deployment.
@@ -47,16 +46,14 @@ This project aims to:
 
 - **Features:** All except `Class`.  
 - **Target:** `Class` column.  
-- **Scaling:** StandardScaler for `Amount` and `Time`.  
-- **Oversampling:** SMOTE applied to training set to balance classes.  
-
+- **Scaling:** StandardScaler for `Amount` and `Time`. 
 ---
 
 ## 🧰 Models
 
 - **Logistic Regression** – baseline model.  
 - **Random Forest Classifier** – captures non-linear patterns.  
-- **Class imbalance handling:** `class_weight='balanced'` + SMOTE.  
+- **Class imbalance handling:** `class_weight='balanced'`  
 - **Threshold tuning:** Optimal threshold selected to maximize **F1 score**.  
 
 ---
