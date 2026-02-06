@@ -25,9 +25,6 @@ venv/
 # Logs
 *.log
 
-# Ignore dataset (GitHub file size limit)
-data/creditcard.csv
-
 # System/editor temp files
 *.swp
 *.swo
