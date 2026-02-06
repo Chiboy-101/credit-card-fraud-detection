@@ -1,7 +1,33 @@
-pycache/
+# Python cache files
+__pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Saved models and artifacts
 *.pkl
 *.joblib
-.env
-data/creditcard.csv
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# MacOS files
+.DS_Store
+
+# Logs
+*.log
+
+# Ignore dataset (GitHub file size limit)
+data/creditcard.csv
+
+# System/editor temp files
+*.swp
+*.swo
