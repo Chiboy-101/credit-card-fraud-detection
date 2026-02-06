@@ -25,6 +25,8 @@ venv/
 # Logs
 *.log
 
+data/creditcard.csv
+
 # System/editor temp files
 *.swp
 *.swo
