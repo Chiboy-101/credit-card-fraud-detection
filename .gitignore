@@ -3,6 +3,5 @@ pycache/
 *.pkl
 *.joblib
 .env
-.ipynb_checkpoints/
-# Ignore dataset
 data/creditcard.csv
+.ipynb_checkpoints/
