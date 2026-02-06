@@ -20,7 +20,8 @@ This project aims to:
 
 ## 📊 Dataset
 
-- Dataset: [Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)  
+- Dataset: [Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud) 
+> ⚠️ Dataset is too large for GitHub. Download it from [Kaggle](https://www.kaggle.com/mlg-ulb/creditcardfraud) and place it in the `data/` folder.
 - Transactions: 284,807  
 - Fraud cases: 492 (~0.17%)  
 - Features:  
