@@ -1,7 +1,7 @@
 # 💳 Credit Card Fraud Detection
 
 Detect fraudulent transactions in credit card data using **Machine Learning**.  
-This project combines **Random Forests, SMOTE, and threshold optimization** to build a highly accurate fraud detection system.  
+This project combines **Random Forests, Class Weights, and threshold optimization** to build a highly accurate fraud detection system.  
 
 ---
 
