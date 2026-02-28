@@ -90,7 +90,7 @@ cd credit-card-fraud-detection
 
 # Install dependencies:
 pip install -r requirements.txt
-# --- if trained again, save model in models/
+# --- if trained again, saved model in models/
 
 # Run training script
 python src/train_model.py
